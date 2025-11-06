@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mediapipe.Net.Runtime.CPU" Version="0.9.1" />
+    <PackageReference Include="Mediapipe.Net.Framework.Protobuf" Version="0.9.1" />
+  </ItemGroup>
+
+</Project>
